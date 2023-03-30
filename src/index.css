@@ -1,0 +1,18 @@
+:root {
+  --primary-yellow:#FFBE34;
+  --primary-blue: #091242;
+  --secondary-color: #F4F4F4;
+  --heading-font: #1C1F35;
+  --paragraph-color: #666C89;
+  --linear-gradient: linear-gradient(94.06deg, #FFB629 -1.21%, #FFDA56 50.75%, #FFD7A6 102.71%);
+}
+
+
+
+*{
+  margin: 0%;
+  padding: 0%;
+  text-decoration: none;
+  box-sizing: border-box;
+  list-style-type: none;
+}

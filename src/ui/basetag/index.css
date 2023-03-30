@@ -1,0 +1,23 @@
+.text_container {
+    background: rgba(232, 232, 232, 0.5);
+    width: fit-content;
+    padding: 3px 10px;   
+color: #1C1F35;
+
+}
+
+.basetag .line {
+    width: 4px;
+    background: linear-gradient(94.06deg, #FFB629 -1.21%, #FFDA56 58.66%, #FFD7A6 116.84%);
+    /* height: 23px; */
+}
+
+.basetag {
+    display: flex;
+    /* align-items: center; */
+}
+.text_container p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+}

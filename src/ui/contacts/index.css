@@ -1,0 +1,19 @@
+.contacts {
+    display: flex;
+    margin-top: 33px;
+    gap: 14px;
+    align-items: center;
+}
+
+.contacts img {
+    width: 63px;
+    
+}
+
+.contact_information p {
+    font-weight: 500;
+/* font-size: 14px; */
+line-height: 135.02%;
+color: #FFFFFF;
+
+}

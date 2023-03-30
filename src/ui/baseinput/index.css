@@ -1,0 +1,14 @@
+.baseinput {
+    padding: 21px 30px 21px 30px;
+    border: 1px solid #4E5683;
+    background: #091242; 
+    width: 100%;
+}
+
+.baseinput::placeholder {
+    font-weight: 400;
+font-size: 20px;
+line-height: 18px;
+color: #999999;
+}
+
