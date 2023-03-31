@@ -5,13 +5,13 @@ import container from './../assets/container.svg';
 import carton from './../assets/carton.svg';
 import boat from './../assets/boat.svg';
 import BaseButton from '../ui/basebutton/BaseButton';
-import Basetag from '../ui/Basetag/Basetag';
+// import Basetag from '../ui/Basetag/Basetag';
 
 function Blog() {
   return (
     <div className='Blog'>
       <div className='blog_news'> 
-       <Basetag className='base_tag' text='Our Blog' />
+       {/* <Basetag className='base_tag' text='Our Blog' /> */}
        <h5>Our Latest News</h5>
      </div>
      <BlogPost  image={container} date= '08'  title='Inland freight a worthy solution for your business' />
