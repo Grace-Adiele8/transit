@@ -1,7 +1,7 @@
 import React from 'react';
 import airplane from '../assets/airplane.png';
 import airplaneicon from '../assets/airplaneicon.svg';
-import Basetag from '../ui/Basetag/Basetag';
+// import Basetag from '../ui/Basetag/Basetag';
 import List from '../ui/lists/List';
 import box from './../assets/box.svg';
 import global from './../assets/global.svg';
@@ -24,7 +24,7 @@ function WhyChoose() {
             </div>
             </div> 
             <div className="why_choose_content_information">
-              <Basetag text='Why Choose'/>
+              {/* <Basetag text='Why Choose'/> */}
               <h5 className='why_choose_content_information_text'>We create opportunity to reach potential</h5>
               <p className='why_choose_content_information_description'>Leverage agile frameworks to provide a robust synopsis for strategy foster collaborative thinking to further the overall value proposition. </p>
               <div className='why_choose_content_list'>
