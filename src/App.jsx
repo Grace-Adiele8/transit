@@ -5,11 +5,11 @@ import HomeCustomers from './homecustomers/HomeCustomers'
 import HomeTeam from './Hometeam/HomeTeam'
 
 import HomeTransporting from './Hometransporting/HomeTransporting'
-import HomeServices from './homewhat/HomeServices'
+// import HomeServices from './homewhat/HomeServices'
 import HomeWhat from './homewhat/HomeWhat'
 import HomeWhyUs from './HomeWhyUs/HomeWhyUs'
 import NavBar from './NavBar/NavBar'
-import Logo from './ui/logo/Logo'
+// import Logo from './ui/logo/Logo'
 import WhyChoose from './Whychoose/WhyChoose'
 
 function App() {
