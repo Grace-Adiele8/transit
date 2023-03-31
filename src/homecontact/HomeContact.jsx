@@ -1,5 +1,4 @@
 import React from 'react';
-import Basetag from '../ui/Basetag/Basetag';
 import Contacts from '../ui/contacts/Contacts';
 import email from './../assets/email.svg';
 import call from './../assets/call.svg';
