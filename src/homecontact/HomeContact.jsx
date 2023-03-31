@@ -16,7 +16,6 @@ function HomeContact() {
     <div className='homecontact'>
     <div className='home_contact_information'>
     <div className='contact_us'>
-     <Basetag text='Contact' /> 
      <h3>Get in touch with us</h3>
      <p className='home_contact_text'>Leverage agile frameworks to provide a robust synopsis for strategy foster collaborative thinking to further the overall value.</p>
      <Contacts images={email}  title='email' description= 'contact@logistics.com'/>
