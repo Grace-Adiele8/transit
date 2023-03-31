@@ -1,5 +1,4 @@
-import React from 'react'
-import Basetag from '../ui/Basetag/Basetag';
+import React from 'react';
 import arrowleft from './../assets/arrowleft.svg';
 import arrowright from './../assets/arrowright.svg';
 import HomeTestimonial from './HomeTestimonial';
