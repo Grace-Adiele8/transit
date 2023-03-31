@@ -2,6 +2,7 @@
     background: #091242;
     padding-top: 143px;
     padding-bottom: 143px;
+    margin-top: 101px;
 }
 
 .home_contact_information {
@@ -52,4 +53,13 @@ width: 335px;
     max-width: 1200px;
     margin: 0% auto;
     margin-top: 70px;
+}
+.base_button{
+    font-weight: 600;
+font-size: 16px;
+line-height: 135.02%;
+color: #23212A;
+padding: 19px 34px;
+margin-top: 30px;
+background: linear-gradient(94.06deg, #FFB629 -1.21%, #FFDA56 58.66%, #FFD7A6 116.84%);
 }

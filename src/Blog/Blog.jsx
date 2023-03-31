@@ -5,16 +5,21 @@ import './index.css'
 import container from './../assets/container.svg';
 import carton from './../assets/carton.svg';
 import boat from './../assets/boat.svg';
+import BaseButton from '../ui/basebutton/BaseButton';
 
 function Blog() {
   return (
     <div className='Blog'>
-     <Basetag text='Our Blog' />
-     <h5>Our Latest News</h5>
+      <div className='blog_news'> 
+       <Basetag className='base_tag' text='Our Blog' />
+       <h5>Our Latest News</h5>
+     </div>
      <BlogPost  image={container} date= '08'  title='Inland freight a worthy solution for your business' />
     <BlogPost  image={carton} date= '12'  title='How technology can help redraw the supply chain map'  />
   <BlogPost  image={boat} date= '25'  title='How technology can help redraw the supply chain map' />
  <div className='line3'></div>
+ <BaseButton className='more_blog_button'>More Blog</BaseButton>
+ 
     </div>
   )
 }

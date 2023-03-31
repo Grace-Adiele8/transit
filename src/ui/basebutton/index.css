@@ -1,3 +1,12 @@
+.base-button--primary{
+    color: #23212a;
+    background: linear-gradient(95deg, #FFB629 -1.19%, #FFDA56 57.78%, #FFD7A6 115.08%);;
+}
+
+.base-button--secondary {
+    color: #FFFFFF;
+    background: var(--primary-blue);
+}
 .base-button{
-    padding: 19px 34px;
+    padding: 19px 47px;
 }

@@ -9,6 +9,7 @@ import BaseInput from '../ui/baseinput/BaseInput';
 import linkedin from './../assets/linkedin.svg';
 import twitter from './../assets/twitter.svg';
 import facebook from './../assets/facebook.svg';
+import BaseButton from '../ui/basebutton/BaseButton';
 
 function Footer() {
   return (
@@ -47,6 +48,7 @@ function Footer() {
          <div className='more_information'>
          <BaseInput  placeholder='Email here*'/>
          <div className='socialmedia_information'>
+          <BaseButton variant='primary' className='footer_button'>Send Now</BaseButton>
            <img src={linkedin} alt='linkedin'/>
            <img src={twitter} alt='twitter'/>
            <img src={facebook} alt='facebook'/>

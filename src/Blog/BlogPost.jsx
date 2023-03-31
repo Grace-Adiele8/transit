@@ -19,6 +19,7 @@ function BlogPost({image,date,title}) {
       <h2>{date}</h2>
       <p>September</p>
       </div>
+      
       <div className='blogpost_text'>
       <h5>{title}</h5>
       <p> 'We are dedicated in creating added value for our customers by implementing modern technology in our work.' </p>

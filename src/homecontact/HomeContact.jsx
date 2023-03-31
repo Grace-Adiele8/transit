@@ -32,7 +32,7 @@ function HomeContact() {
      <BaseInput placeholder='City*'/>
      </div>
      <BaseInput className='message' placeholder='Your Message' />
-      {/* <BaseButton>Submit Message</BaseButton> */}
+      <BaseButton className='base_button'>Submit Message</BaseButton>
      </div>
      </div>
      <div className="partners">

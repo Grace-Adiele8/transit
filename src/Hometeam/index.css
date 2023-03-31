@@ -1,0 +1,43 @@
+.home_team{
+    max-width: 1200px;
+    margin: 0% auto;
+    padding-top: 95px;
+}
+.home_teams_text{
+    background: var(--primary-blue);
+    padding: 42px 0px 46px 34px ;
+    width: 364px;
+}
+.home_teams_full_name{
+    font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+color: #FFFFFF;
+margin-bottom: 2px;
+}
+.home_teams_profession{
+    font-weight: 500;
+font-size: 16px;
+line-height: 151.52%;
+color: #FFFFFF;
+
+}
+.home_team_persons {
+    display: flex;
+    gap: 40px;
+}
+
+.home_team_basetag{
+    max-width: 123px;
+    margin: 0% auto;
+    margin-top: 94px;
+}
+.home_team_text{
+    text-align: center;
+    ont-weight: 600;
+font-size: 35px;
+line-height: 41px;
+text-align: center;
+color:var(--primary-blue);
+margin-bottom: 26px;
+}

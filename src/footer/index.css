@@ -56,11 +56,13 @@ color: #FFFFFF;
     font-size: 16px;
     line-height: 250%;
     color: #FFFFFF;
+    margin-left: 54px;
 }
 
 .socialmedia_information  {
     display: flex;
     gap: 27px;
+    padding-top: 20px;
 }
 
 .footer_text {
@@ -70,7 +72,7 @@ color: #FFFFFF;
 }
 
 .about_information {
-    margin-left: 117px;
+    padding-left: 54px;
     margin-top: 30px;
     
 }
@@ -80,6 +82,8 @@ color: #FFFFFF;
 }
 .more_information {
     margin-left: 140px;
+    flex: 1;
+    margin-top: 20px;
 }
 /* .footer_content_block {
     max-width: 1205px;
@@ -114,4 +118,8 @@ justify-content: space-evenly;
 font-size: 16px;
 line-height: 250%;
 color: #FFFFFF;
+}
+
+.footer_button{
+    padding: 19px 36px;
 }

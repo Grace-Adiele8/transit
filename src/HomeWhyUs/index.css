@@ -1,0 +1,95 @@
+.homewhyus{
+    position: relative;
+    margin-top: 366px;
+    padding-left: 86px;
+    padding-right: 93px;
+}
+
+.homewhyus::after {
+    content: '';
+    height: 504px;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    background: url(../assets/consignment.png);
+    top: -366px;
+    left: 0;
+}
+.home_why_us_content{
+    max-width: 1200px;
+    margin: 0% auto;
+    margin-top: -178px;
+    background: #fff;
+    padding: 85px 93px 0 86px;
+}
+.home_why_us_content_top{
+    display: flex;
+    gap: 88px;
+    margin-bottom: 159px;
+}
+.how_why_content_top_text{
+    margin: 12px 0;
+    max-width: 472px;
+}
+.home_why_us_header{
+    margin: 12px 0;
+    max-width: 472px;
+}
+.home_why_us_description{
+    max-width: 464px;
+}
+.home_why_us_image {
+    position: relative;
+}
+
+.home_why_us_image1{
+    width: 461px;
+    height: 415px;
+}
+.home_why_us_image2{
+    width: 372px;
+    height: 248px;
+    position: absolute;
+    z-index: 1;
+    bottom: -73px;
+    left: -145px;
+}
+.home_why_us_achievements{
+    border-top: 1px solid #d4d4d4;
+    border-bottom: 1px solid #d4d4d4;
+    display: flex;
+    margin-bottom: 97px;
+}
+.home_why_us_packages{
+   border-right: 1px solid #d4d4d4;
+   padding-right: 106px;
+   margin-left: 86px; 
+   display: flex;
+    align-items: center;
+    gap: 16px;
+    padding-top: 46px;
+    padding-bottom: 30px;
+}
+.home_why_us_clients{
+    padding-left: 122px;
+}
+.home_why_us_clients{
+    border-right: 1px solid #d4d4d4;
+   padding-right: 106px;
+   margin-left: 86px; 
+   display: flex;
+    align-items: center;
+    gap: 16px;
+    padding-top: 46px;
+    padding-bottom: 30px;
+}
+.home_why_us_pattern{
+    height: 17px;
+    width: 17px;
+    background: linear-gradient(94.06deg, #FFB629 -1.21%, #FFDA56 58.66%, #FFD7A6 116.84%);;
+}
+.home_why_us_packages h2{
+    font-weight: 400;
+    line-height: 18px;
+    color: var(--heading-font);
+}

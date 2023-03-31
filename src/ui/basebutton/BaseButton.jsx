@@ -1,9 +1,9 @@
-import React from 'react';
+import React, { Children } from 'react';
 import './index.css';
 
-function BaseButton({text}) {
+function BaseButton({children,variant='primary',className=''}) {
   return (
-   <button className={`base-button--${variant} ${className} `}>{text}</button>  
+   <button className={`base-button--${variant} ${className} `}>{children}</button>  
  
   )
 }
