@@ -4,7 +4,7 @@ import Logo from '../ui/logo/Logo';
 import banner from './../assets/banner.svg';
 import './index.css';
 import email from './../assets/email.svg'
-import call from './../assets/Call.svg';
+import call from './../assets/call.svg';
 import BaseInput from '../ui/baseinput/BaseInput';
 import linkedin from './../assets/linkedin.svg';
 import twitter from './../assets/twitter.svg';
