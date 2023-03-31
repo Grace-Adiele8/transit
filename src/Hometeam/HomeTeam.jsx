@@ -1,10 +1,10 @@
 import React from 'react';
-import Basetag from '../ui/Basetag/Basetag';
 import HomeTeams from './HomeTeams.';
 import './index.css';
 import jessica from './../assets/jessica.png';
 import kathleen from './../assets/Kathleen Smith.png';
 import rebecca from './../assets/Rebecca Tylor.png';
+import Basetag from '../ui/Basetag/Basetag';
 
 function HomeTeam() {
   return (

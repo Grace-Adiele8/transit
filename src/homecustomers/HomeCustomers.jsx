@@ -5,6 +5,7 @@ import HomeTestimonial from './HomeTestimonial';
 import './index.css';
 import smith from './../assets/smith.svg';
 import martin from './../assets/martin.svg';
+import Basetag from '../ui/Basetag/Basetag';
 
 function HomeCustomers() {
   return (

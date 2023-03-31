@@ -1,11 +1,11 @@
 import React from 'react'
-import Basetag from '../ui/Basetag/Basetag';
 import HomeServices from './HomeServices';
 import ship from './../assets/ship.svg';
 import aeroplane from './../assets/aeroplane.svg';
 import warehouse from './../assets/warehouse.svg';
 import truck from './../assets/truck.svg';
-import BaseButton from '../ui/basebutton/BaseButton';
+// import BaseButton from '../ui/basebutton/BaseButton';
+import Basetag from '../ui/Basetag/Basetag';
 
 function HomeWhat() {
   return (

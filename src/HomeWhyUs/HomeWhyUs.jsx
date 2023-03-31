@@ -1,10 +1,10 @@
 import React from 'react'
-import Basetag from '../ui/Basetag/Basetag';
 import './index.css';
 import delivery from './../assets/delivery.svg';
 import cost from'../assets/cost.svg';
 import aeroplane from './../assets/aeroplane.png';
 import lady from './../assets/lady.png';
+import Basetag from '../ui/Basetag/Basetag';
 
 
 function HomeWhyUs() {

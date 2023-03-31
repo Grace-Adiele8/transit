@@ -1,11 +1,11 @@
 import React from 'react'
-import Basetag from '../ui/basetag/Basetag'
 import BlogPost from './BlogPost'
 import './index.css'
 import container from './../assets/container.svg';
 import carton from './../assets/carton.svg';
 import boat from './../assets/boat.svg';
 import BaseButton from '../ui/basebutton/BaseButton';
+import Basetag from '../ui/Basetag/Basetag';
 
 function Blog() {
   return (

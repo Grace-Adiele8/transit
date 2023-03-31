@@ -1,7 +1,7 @@
 import React from 'react';
 import './index.css';
 
-function Basetag({text, className}) {
+function Basetag({text, className=''}) {
   return (
     <div className={`basetag ${className}`}>
       <div className='line'></div>

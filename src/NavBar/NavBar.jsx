@@ -1,13 +1,13 @@
 import React from 'react'
-import Basetag from '../ui/Basetag/Basetag'
+// import Basetag from '../ui/Basetag/Basetag'
 import BaseButton from '../ui/basebutton/BaseButton'
 
 export default function NavBar() {
   return (
     <div className='home-hero'>
       <div className='home_hero_content'>
-      <Basetag text='Logistics & Supply Chain Solutions'
- className='home_hero_basetag'/>
+      {/* <Basetag text='Logistics & Supply Chain Solutions'
+ className='home_hero_basetag'/> */}
  <h1 className='home_hero_content_header'>Your Gateway 
 to any Destination in the World</h1>
 <p className='home_her0_content_description'>In augue ligula, feugiat ut nulla consequat. Ut est lacus, molestie in arcu no, iaculis vehicula ipsum. Nunc faucibus, nisl id dapibus 
