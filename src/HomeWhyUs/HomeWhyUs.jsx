@@ -4,7 +4,7 @@ import delivery from './../assets/delivery.svg';
 import cost from'../assets/cost.svg';
 import aeroplane from './../assets/aeroplane.png';
 import lady from './../assets/lady.png';
-import Basetag from '../ui/Basetag/Basetag';
+// import Basetag from '../ui/Basetag/Basetag';
 
 
 function HomeWhyUs() {
@@ -13,7 +13,7 @@ function HomeWhyUs() {
     <div className="home_why_us_content">
       <div className="home_why_us_content_top">
         <div className="how_why_content_top_text">
-        <Basetag text='Why Us'/>
+        {/* <Basetag text='Why Us'/> */}
         <h3 className='home_why_us_header'>We provide full range global logistics solution</h3>
         <p className='home_why_us_description'>Leverage agile frameworks to provide a robust synopsis for strategy foster collaborative thinking to further the overall value
              proposition. <br/><br/>Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.</p>
