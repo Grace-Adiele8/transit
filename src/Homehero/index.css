@@ -1,0 +1,28 @@
+.home-hero{
+    padding: 0 0 218px;
+    background: url(../assets/cargo.png);
+    display: flex;
+}
+
+.home_hero_content{
+    max-width: 1200px;
+    margin: 0% auto;
+}
+
+
+.home_hero_button{
+    padding: 19px 47px;
+}
+.home_hero_header{
+    max-width: 554px;
+     margin: 8px 0 6px;
+}
+
+
+.home_hero_description{
+    max-width: 571px;
+    margin-bottom: 24px;
+    color: #fff;
+}
+
+

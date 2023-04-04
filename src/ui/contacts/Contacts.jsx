@@ -1,6 +1,4 @@
 import React from 'react';
-// import email from './../../assets/email.svg';
-// import call from './../../assets/Call.svg';
 import './index.css';
 
 function Contacts({images,title,description}) {

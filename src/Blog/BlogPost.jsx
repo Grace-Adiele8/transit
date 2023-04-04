@@ -8,7 +8,7 @@ import './index.css';
 
 function BlogPost({image,date,title}) {
   return (
-    <div>
+    <div className='home_blog'>
     <div className='line1'></div>
     <div className='blogpost'>
     <div className='blogpost_image'>

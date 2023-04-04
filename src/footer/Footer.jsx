@@ -18,7 +18,9 @@ function Footer() {
       <div className='footer_content'>
       <div className='footer_heading'>
       <div className='footer_shadow'></div>
+      <div className="footer_logo">
       <Logo className='logo' />
+      </div>
       <div className='footer_title_wrap'>
        <h5>Pages</h5>
        <h5>Utility</h5>
@@ -27,7 +29,7 @@ function Footer() {
       </div>
       <div className='footer_text'>
         <div className='footer_content_block'>
-            <p>Leverage agile frameworks to provide a robust synopsis for strategy  collaborative thinking to further the overall value proposition.</p>
+            <p className='footer_content_block_content'>Leverage agile frameworks to provide a robust synopsis for strategy  collaborative thinking to further the overall value proposition.</p>
            <Contacts  images={email} title='email' description= 'contact@logistics.com'/>
            <Contacts  images={call} title='call' description= '(00) 112 365 489'/>
         </div>
@@ -61,10 +63,12 @@ function Footer() {
         <div className='footer_bottom_information'>
             <p>Copyright © TransitFlow | Designed by VictorFlow - Powered by Webflow.</p>
             <ul>
-                <li>Style Guide</li>
-                <li> Licenses</li>
-                <li>Changelog </li>
-                <li>Password</li>
+            
+                <li className='footer_bottom_list' >Style Guide</li>
+                <li className='footer_bottom_list'> Licenses</li>
+                <li className='footer_bottom_list'>Changelog </li>
+                <li className='footer_bottom_list'>Password</li>
+                
             </ul>
         </div>
       </div>

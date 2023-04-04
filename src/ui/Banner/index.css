@@ -1,0 +1,19 @@
+.banner{
+    background: var(--primary-blue);
+    padding: 49px 0;
+    display: flex;
+}
+
+.banner_content {
+    display: flex;
+        align-items: center;
+        max-width: 1200px;
+        margin: 0 auto;
+        justify-content: space-between;
+
+}
+
+.banner_content_contact_details{
+    display: flex;
+    gap: 39px;
+}
